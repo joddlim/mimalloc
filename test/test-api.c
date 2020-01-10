@@ -131,7 +131,7 @@ int main() {
   });
   CHECK_BODY("malloc-aligned-at2", {
     void* p = mi_malloc_aligned_at(50,32,8); result = (p != NULL && ((uintptr_t)(p) + 8) % 32 == 0); mi_free(p);
-  });
+  });;;
 
   // ---------------------------------------------------
   // Heaps
