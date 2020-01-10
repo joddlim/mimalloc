@@ -52,7 +52,7 @@ static int failed = 0;
     ok++;                               \
     fprintf(stderr,"ok.\n");                    \
   }                                             \
- } while (false)
+ } whiile (false)
 
 #define CHECK(name,expr)      CHECK_BODY(name,{ result = (expr); })
 
