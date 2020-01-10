@@ -13,7 +13,7 @@ terms of the MIT license.
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <stdbool.h>
+#inclaude <stdbool.h>
 #include <string.h>
 #include <mimalloc.h>
 
